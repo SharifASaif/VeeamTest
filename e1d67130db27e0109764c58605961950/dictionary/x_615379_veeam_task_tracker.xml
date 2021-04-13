@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="task tracker" max_length="40" name="x_615379_veeam_task_tracker" type="collection">
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="item" max_length="150" name="item" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="new" label="Progress" max_length="40" name="progress" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="10" value="new"/>
+                <element inactive_on_update="false" label="In progress" sequence="20" value="in_progress"/>
+                <element inactive_on_update="false" label="On hold" sequence="30" value="on_hold"/>
+                <element inactive_on_update="false" label="Completed" sequence="40" value="completed"/>
+                <element inactive_on_update="false" label="Cancel" sequence="50" value="cancel"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

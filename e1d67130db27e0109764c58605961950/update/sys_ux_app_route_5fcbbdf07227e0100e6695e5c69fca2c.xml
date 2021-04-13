@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Veeam Config">dfcbbdf09027e010c5787d94c267892b</app_config>
+        <description/>
+        <fields>notificationTrayDisplayed,notificationQueue,notificationTrayIsLoading,notificationUIRoute,toastItem</fields>
+        <icon/>
+        <name>Notification tray</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id>wsSidepanel</parent_macroponent_composition_element_id>
+        <route_type>notificationtray</route_type>
+        <screen_type display_value="Notification tray">1fcbbdf06127e0100e4f4ea62be1cd2c</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-13 19:56:51</sys_created_on>
+        <sys_id>5fcbbdf07227e0100e6695e5c69fca2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notification tray</sys_name>
+        <sys_package display_value="Veeam" source="x_615379_veeam">e1d67130db27e0109764c58605961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Veeam">e1d67130db27e0109764c58605961950</sys_scope>
+        <sys_update_name>sys_ux_app_route_5fcbbdf07227e0100e6695e5c69fca2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-13 19:56:51</sys_updated_on>
+    </sys_ux_app_route>
+</record_update>
